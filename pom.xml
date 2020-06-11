@@ -60,6 +60,7 @@
                 <version>2.3</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <warSourceDirectory>${basedir}/src/main/WebContent</warSourceDirectory>
                 </configuration>
             </plugin>
             
