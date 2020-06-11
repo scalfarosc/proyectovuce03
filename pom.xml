@@ -59,7 +59,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                <webappDirectory>/WebContent</webappDirectory>
+                <webappDirectory>${project.build.directory}/WebContent</webappDirectory>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
                     
                 </configuration>
